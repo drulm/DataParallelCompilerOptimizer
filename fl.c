@@ -1,14 +1,16 @@
 
 /*---------------------------------------------------------------------------
 	GENERALIZED DATA FLOW EQUATION SOLVING PROGRAM
-	_________________________________________________________
+	_____________________________________________________
 		Can calculate both available expressions and
 		reaching definitions.  Is a single subroutine that
 		can be called with different values.
+
 			(1)	a meet operator (union, intersection)
 			(2)	a direction (fwd, back)
 			(3)	a transformation function (avail def, exp..)
 			(4)	set of gens and kills (derive from 3)
+
 ---------------------------------------------------------------------------*/
 #include "op_common.h"				/* need structs and vars */
 
