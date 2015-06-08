@@ -7,7 +7,7 @@
 #define MAX_DEF_TABLE 1000	/* entries is definitions table */
 #define MAX_TARGET_TABLE 1000	/* target table size */
 #define MAX_BASIC_BLOCKS 1000	/* max number of basic blocks */
-#define B_F 16                          /* # word size bit fields */
+#define B_F 16                  /* # word size bit fields */
 #define WORD_SIZE 32		/* word size is 32 right? */
 
 				/* following for iterative algorithm */
